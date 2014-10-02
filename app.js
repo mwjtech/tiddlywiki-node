@@ -27,7 +27,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', function(req,res) {
-  res.sendfile('public/tiddles.html');
+  res.sendfile('public/tiddle.html');
 });
 
 http.createServer(app).listen(app.get('port'), function(){
